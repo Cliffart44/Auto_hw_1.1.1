@@ -1,0 +1,1 @@
+### [Решение](https://github.com/Cliffart44/Auto_hw_1.1.1/tree/junit4) => [домашнего задания](https://github.com/netology-code/aqa-homeworks/tree/aqa4/basics#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-1---cashbackhacker)

@@ -1,9 +1,10 @@
 package ru.netology.service;
 
-import junit.framework.TestCase;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
-public class CashbackHackServiceTest extends TestCase {
+import static org.junit.Assert.assertEquals;
+
+public class CashbackHackServiceTest {
     CashbackHackService service = new CashbackHackService();
 
     @Test
@@ -18,6 +19,6 @@ public class CashbackHackServiceTest extends TestCase {
 
     @Test
     public void shouldProposeNull() {
-        assertNull(service.remain(2000));
+        assertEquals(0, service.remain(2000));
     }
 }
