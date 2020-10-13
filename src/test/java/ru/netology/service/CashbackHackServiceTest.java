@@ -38,6 +38,6 @@ public class CashbackHackServiceTest {
 
     @org.junit.jupiter.api.Test
     public void shouldProposeNullJ5() {
-        org.junit.jupiter.api.Assertions.assertNull(service.remain(2000));
+        org.junit.jupiter.api.Assertions.assertEquals(0, service.remain(2000));
     }
 }
